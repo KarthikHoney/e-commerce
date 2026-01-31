@@ -85,7 +85,6 @@ import {
   Tablet,
   Headphones as HeadphonesIcon,
   Gamepad,
-  Smartwatch,
   Speaker as SpeakerIcon,
   Camera as CameraIcon,
   Cpu as CpuIcon,
