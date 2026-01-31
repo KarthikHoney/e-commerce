@@ -689,7 +689,7 @@ setProduct(foundProduct);
                         <Mail className="h-5 w-5 text-blue-600 mr-3" />
                         <div>
                           <p className="font-medium text-gray-900">Email Support</p>
-                          <p className="text-sm text-gray-600">support@techhub.com</p>
+                          <p className="text-sm text-gray-600">support@ACT.com</p>
                         </div>
                       </div>
                     </div>
@@ -750,16 +750,16 @@ setProduct(foundProduct);
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-2xl font-bold text-gray-900">Recently Viewed</h2>
-              <a href="/products" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
+              <Link href="/products" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
                 View All
                 <ArrowRight className="h-4 w-4 ml-1" />
-              </a>
+              </Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
               {recentlyViewed.slice(0, 5).map((item) => (
-                <a
+                <Link
                   key={item.id}
-                  href={`/products/₹{item.slug}`}
+                  href={`/products/${item.slug}`}
                   className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow"
                 >
                   <div className="p-4">
@@ -776,7 +776,7 @@ setProduct(foundProduct);
                       <Star className="h-4 w-4 text-yellow-400 fill-yellow-400" />
                     </div>
                   </div>
-                </a>
+                </Link>
               ))}
             </div>
           </div>

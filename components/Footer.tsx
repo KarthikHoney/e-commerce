@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="lg:col-span-2">
               <div className="flex items-center mb-6">
                 <ShoppingBag className="h-8 w-8 text-blue-400 mr-2" />
-                <span className="text-2xl font-bold">TechHub</span>
+                <span className="text-2xl font-bold">ACT</span>
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Your trusted partner for premium electronics and tech accessories since 2010. 
@@ -77,7 +77,7 @@ export default function Footer() {
                   <Mail className="h-5 w-5 text-blue-400 mr-3" />
                   <div>
                     <p className="text-gray-400 text-sm">Email us</p>
-                    <p className="font-medium">support@techhub.com</p>
+                    <p className="font-medium">support@ACT.com</p>
                   </div>
                 </li>
                 <li className="flex items-center">
@@ -95,7 +95,7 @@ export default function Footer() {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-200 text-sm">
-                © 2024 TechHub. All rights reserved.
+                © {new Date().getFullYear()} ACT. All rights reserved.
               </p>
               
               <div className="flex items-center space-x-6 mt-4 md:mt-0">
